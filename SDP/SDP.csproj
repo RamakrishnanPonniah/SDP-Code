@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{37C10976-D2D7-43EA-B6AF-53F1AD9C1A24}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SDP</RootNamespace>
+    <AssemblyName>SDP</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Extensions, Version=2.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.Formatting.Extension.5.2.3.0\lib\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.Formatting.Extension.5.2.3.0\lib\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=4.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.Formatting.Extension.5.2.3.0\lib\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Services\SDPService.asmx" />
+    <Content Include="Static\css\bootstrap-datepicker.css" />
+    <Content Include="Static\css\bootstrap-datepicker.min.css" />
+    <Content Include="Static\css\bootstrap-datepicker.standalone.css" />
+    <Content Include="Static\css\bootstrap-datepicker.standalone.min.css" />
+    <Content Include="Static\css\bootstrap-datepicker3.css" />
+    <Content Include="Static\css\bootstrap-datepicker3.min.css" />
+    <Content Include="Static\css\bootstrap-datepicker3.standalone.css" />
+    <Content Include="Static\css\bootstrap-datepicker3.standalone.min.css" />
+    <Content Include="Static\css\bootstrap-datetimepicker.css" />
+    <Content Include="Static\css\bootstrap-datetimepicker.min.css" />
+    <Content Include="Static\css\bootstrap-select.css.map" />
+    <Content Include="Static\fonts\fa-brands-400.eot" />
+    <Content Include="Static\fonts\fa-brands-400.ttf" />
+    <Content Include="Static\fonts\fa-brands-400.woff" />
+    <Content Include="Static\fonts\fa-brands-400.woff2" />
+    <Content Include="Static\fonts\fa-regular-400.eot" />
+    <Content Include="Static\fonts\fa-regular-400.ttf" />
+    <Content Include="Static\fonts\fa-regular-400.woff" />
+    <Content Include="Static\fonts\fa-regular-400.woff2" />
+    <Content Include="Static\fonts\fa-solid-900.eot" />
+    <Content Include="Static\fonts\fa-solid-900.ttf" />
+    <Content Include="Static\fonts\fa-solid-900.woff" />
+    <Content Include="Static\fonts\fa-solid-900.woff2" />
+    <Content Include="Static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Static\images\acc-logo.png" />
+    <Content Include="Static\images\acc-new-tech.png" />
+    <Content Include="Static\images\ai.png" />
+    <Content Include="Static\images\Carousel_Image_1.jpg" />
+    <Content Include="Static\images\Carousel_Image_2.jpg" />
+    <Content Include="Static\images\Carousel_Image_3.jpg" />
+    <Content Include="Static\images\Carousel_Image_4.jpg" />
+    <Content Include="Static\images\Carousel_Image_5.jpg" />
+    <Content Include="Static\images\sdp-logo.JPG" />
+    <Content Include="Static\js\angular-animate.js" />
+    <Content Include="Static\js\angular-animate.min.js" />
+    <Content Include="Static\js\angular-aria.js" />
+    <Content Include="Static\js\angular-aria.min.js" />
+    <Content Include="Static\js\angular-cookies.js" />
+    <Content Include="Static\js\angular-cookies.min.js" />
+    <Content Include="Static\js\angular-csp.css" />
+    <Content Include="Static\js\angular-loader.js" />
+    <Content Include="Static\js\angular-loader.min.js" />
+    <Content Include="Static\js\angular-message-format.js" />
+    <Content Include="Static\js\angular-message-format.min.js" />
+    <Content Include="Static\js\angular-messages.js" />
+    <Content Include="Static\js\angular-messages.min.js" />
+    <Content Include="Static\js\angular-mocks.js" />
+    <Content Include="Static\js\angular-parse-ext.js" />
+    <Content Include="Static\js\angular-parse-ext.min.js" />
+    <Content Include="Static\js\angular-resource.js" />
+    <Content Include="Static\js\angular-resource.min.js" />
+    <Content Include="Static\js\angular-route.min.js.map" />
+    <Content Include="Static\js\angular-sanitize.min.js.map" />
+    <Content Include="Static\js\angular-scenario.js" />
+    <Content Include="Static\js\angular-touch.js" />
+    <Content Include="Static\js\angular-touch.min.js" />
+    <Content Include="Static\js\angular.min.js.map" />
+    <Content Include="Static\js\angularjs-gauge.js" />
+    <Content Include="Static\js\angularjs-gauge.min.js" />
+    <Content Include="Static\js\bootstrap-datepicker.js" />
+    <Content Include="Static\js\bootstrap-datepicker.min.js" />
+    <Content Include="Static\js\bootstrap-datetimepicker.min.js" />
+    <Content Include="Static\js\bootstrap-select.js.map" />
+    <Content Include="Static\js\jquery-3.3.1.min.map" />
+    <Content Include="Static\js\angular-cookies.min.js.map" />
+    <Content Include="Static\css\bootstrap.css.map" />
+    <Content Include="Static\css\bootstrap.min.css.map" />
+    <Content Include="Static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Static\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Static\css\bootstrap-datepicker.css.map" />
+    <Content Include="Static\css\bootstrap-datepicker.min.css.map" />
+    <Content Include="Static\css\bootstrap-datepicker.standalone.css.map" />
+    <Content Include="Static\css\bootstrap-datepicker.standalone.min.css.map" />
+    <Content Include="Static\css\bootstrap-datepicker3.css.map" />
+    <Content Include="Static\css\bootstrap-datepicker3.min.css.map" />
+    <Content Include="Static\css\bootstrap-datepicker3.standalone.css.map" />
+    <Content Include="Static\css\bootstrap-datepicker3.standalone.min.css.map" />
+    <Content Include="Static\js\angular-animate.min.js.map" />
+    <Content Include="Static\js\angular-aria.min.js.map" />
+    <Content Include="Static\js\angular-loader.min.js.map" />
+    <Content Include="Static\js\angular-message-format.min.js.map" />
+    <Content Include="Static\js\angular-messages.min.js.map" />
+    <Content Include="Static\js\angular-parse-ext.min.js.map" />
+    <Content Include="Static\js\angular-resource.min.js.map" />
+    <Content Include="Static\js\angular-touch.min.js.map" />
+    <Content Include="Static\js\angularjs-gauge.min.js.map" />
+    <Content Include="Static\js\jquery-3.3.1.slim.min.map" />
+    <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\SDP.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index.html" />
+    <Content Include="Static\css\bootstrap-select.css" />
+    <Content Include="Static\css\bootstrap-select.min.css" />
+    <Content Include="Static\css\bootstrap.css" />
+    <Content Include="Static\css\bootstrap.min.css" />
+    <Content Include="Static\css\fontawesome-all.css" />
+    <Content Include="Static\css\fontawesome-all.min.css" />
+    <Content Include="Static\css\fontawesome.css" />
+    <Content Include="Static\css\fontawesome.min.css" />
+    <Content Include="Static\fonts\fa-brands-400.svg" />
+    <Content Include="Static\fonts\fa-regular-400.svg" />
+    <Content Include="Static\fonts\fa-solid-900.svg" />
+    <Content Include="Static\images\flag_france.png" />
+    <Content Include="Static\images\flag_spain.png" />
+    <Content Include="Static\images\flag_usa.png" />
+    <Content Include="Static\js\angular-route.js" />
+    <Content Include="Static\js\angular-route.min.js" />
+    <Content Include="Static\js\angular-sanitize.js" />
+    <Content Include="Static\js\angular-sanitize.min.js" />
+    <Content Include="Static\js\angular.js" />
+    <Content Include="Static\js\angular.min.js" />
+    <Content Include="Static\js\app.js" />
+    <Content Include="Static\js\bootstrap-select.js" />
+    <Content Include="Static\js\bootstrap-select.min.js" />
+    <Content Include="Static\js\bootstrap.js" />
+    <Content Include="Static\js\bootstrap.min.js" />
+    <Content Include="Static\js\controller\final.controller.js" />
+    <Content Include="Static\js\controller\homepage.controller.js" />
+    <Content Include="Static\js\controller\login.controller.js" />
+    <Content Include="Static\js\controller\transaction.controller.js" />
+    <Content Include="Static\js\jquery-3.3.1.js" />
+    <Content Include="Static\js\jquery-3.3.1.min.js" />
+    <Content Include="Static\js\jquery-3.3.1.slim.js" />
+    <Content Include="Static\js\jquery-3.3.1.slim.min.js" />
+    <Content Include="Static\js\moment.min.js" />
+    <Content Include="Static\js\popper.min.js" />
+    <Content Include="Static\css\styles.css" />
+    <Content Include="Templates\final.html" />
+    <Content Include="Templates\home.html" />
+    <Content Include="Templates\login.html" />
+    <Content Include="Templates\transaction.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\SDPService.asmx.cs">
+      <DependentUpon>SDPService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51785</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51785/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
