@@ -16,3 +16,15 @@ C:\Users\g.b.balasundaram\Desktop\SDP C#\Code\SDP\SDP\obj\Release\SDP.csproj.Cor
 C:\Users\g.b.balasundaram\Desktop\SDP C#\Code\SDP\SDP\obj\Release\SDP.csproj.CopyComplete
 C:\Users\g.b.balasundaram\Desktop\SDP C#\Code\SDP\SDP\obj\Release\SDP.dll
 C:\Users\g.b.balasundaram\Desktop\SDP C#\Code\SDP\SDP\obj\Release\SDP.pdb
+C:\Projects\Source\SDP\SDP-Code\SDP\bin\SDP.dll.config
+C:\Projects\Source\SDP\SDP-Code\SDP\bin\SDP.dll
+C:\Projects\Source\SDP\SDP-Code\SDP\bin\SDP.pdb
+C:\Projects\Source\SDP\SDP-Code\SDP\bin\System.Net.Http.Extensions.dll
+C:\Projects\Source\SDP\SDP-Code\SDP\bin\System.Net.Http.Formatting.dll
+C:\Projects\Source\SDP\SDP-Code\SDP\bin\System.Net.Http.Primitives.dll
+C:\Projects\Source\SDP\SDP-Code\SDP\bin\Newtonsoft.Json.dll
+C:\Projects\Source\SDP\SDP-Code\SDP\obj\Release\SDP.csprojAssemblyReference.cache
+C:\Projects\Source\SDP\SDP-Code\SDP\obj\Release\SDP.csproj.CoreCompileInputs.cache
+C:\Projects\Source\SDP\SDP-Code\SDP\obj\Release\SDP.csproj.CopyComplete
+C:\Projects\Source\SDP\SDP-Code\SDP\obj\Release\SDP.dll
+C:\Projects\Source\SDP\SDP-Code\SDP\obj\Release\SDP.pdb
