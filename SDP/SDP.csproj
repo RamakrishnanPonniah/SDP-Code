@@ -108,6 +108,13 @@
     <Content Include="Static\images\Carousel_Image_3.jpg" />
     <Content Include="Static\images\Carousel_Image_4.jpg" />
     <Content Include="Static\images\Carousel_Image_5.jpg" />
+    <Content Include="Static\images\Carousel_Image_6.jpg" />
+    <Content Include="Static\images\Carousel_Image_7.jpg" />
+    <Content Include="Static\images\Carousel_Image_8.jpg" />
+    <Content Include="Static\images\Carousel_Image_9.jpg" />
+    <Content Include="Static\images\Explain.png" />
+    <Content Include="Static\images\Fairness.png" />
+    <Content Include="Static\images\Levers.jpg" />
     <Content Include="Static\images\sdp-logo.JPG" />
     <Content Include="Static\js\angular-animate.js" />
     <Content Include="Static\js\angular-animate.min.js" />
